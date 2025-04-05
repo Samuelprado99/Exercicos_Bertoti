@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Colleges</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+    <div id="buttons">
+        <button id="list-button">Listagem</button>
+        <button id="create-button">Criação</button>
+        <button id="edit-button">Edição</button>
+        <button id="delete-button">Deleção</button>
+    </div>
+
+    <div id="list-tab" class="tab">
+        <h2>Listagem de Colleges</h2>
+        <div id="list-content"></div>
+    </div>
+
+    <div id="create-tab" class="tab">
+        <h2>Criação de College</h2>
+        <input type="text" id="create-nome" placeholder="Nome da Faculdade">
+        <input type="text" id="create-mascote" placeholder="Mascote do Time">
+        <input type="text" id="create-fundacao" placeholder="Data de Fundação (dd/mm/aaaa)">
+        <button id="create-submit">Criar College</button>
+    </div>
+
+    <div id="edit-tab" class="tab">
+        <h2>Edição de College</h2>
+        <select id="edit-select"></select>
+        <input type="text" id="edit-nome" placeholder="Nome da Faculdade">
+        <input type="text" id="edit-mascote" placeholder="Mascote do Time">
+        <input type="text" id="edit-fundacao" placeholder="Data de Fundação (dd/mm/aaaa)">
+        <button id="edit-submit">Confirmar Edição</button>
+    </div>
+
+    <div id="delete-tab" class="tab">
+        <h2>Deleção de College</h2>
+        <select id="delete-select"></select>
+        <button id="delete-submit">Confirmar Deleção</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
