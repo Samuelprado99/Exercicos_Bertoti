@@ -11,6 +11,7 @@
     <groupId>org.example</groupId>
     <artifactId>ExercicioBertotiCollege</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>ExercicioBertotiCollege</name>
     <description>ExercicioBertotiCollege</description>
     <url/>
@@ -20,6 +21,9 @@
     <developers>
         <developer/>
     </developers>
+    <modules>
+        <module>Bertoti</module>
+    </modules>
     <scm>
         <connection/>
         <developerConnection/>
